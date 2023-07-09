@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - Semana do Zdero ao Programador Contratado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <img class="logo" src="src/img/logo.svg" alt="Logo">
+    </header>
+
+    <main class="selecao-de-personagens">
+        
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagens selecionado" id="ciclope" data-name="Ciclope" data-description="Ciclope é um dos mutantes mais poderosos e líderes dos X-Men, uma equipe de super-heróis que luta pela coexistência pacífica entre humanos e mutantes. Ele tem a habilidade de disparar rajadas ópticas de energia concussiva de seus olhos, que são controladas por um visor especial."> <!--Posso usar duas classes numa mesma tag "class"-->
+                    <img src="./src/img/card-ciclope.jpg" alt="Personagem Ciclope">
+                </li>
+                <li class="personagens" id="jean-grey" data-name="Jean Grey" data-description="descrição do pqersonagem vem aqui, pois aqui eu posso falar oque eu quiser dele hahahahahaha">
+                    <img src="./src/img/card-jean-grey.jpg" alt="Personagem Grey">
+                </li>
+                <li class="personagens" id="lince-negra" data-name="Lince Negra" data-description="descrição do pqersonagem vem aqui, pois aqui eu posso falar oque eu quiser dele hahahahahaha">
+                    <img src="./src/img/card-lince-negra.jpg" alt="Personagem lince-negra">
+                </li>
+                <li class="personagens" id="tempestade" data-name="Tempestade" data-description="descrição do pqersonagem vem aqui, pois aqui eu posso falar oque eu quiser dele hahahahahaha">
+                    <img src="./src/img/card-tempestade.jpg" alt="Personagem Tempestade">
+                </li>
+                <li class="personagens" id="vampira" data-name="Vampira" data-description="descrição do pqersonagem vem aqui, pois aqui eu posso falar oque eu quiser dele hahahahahaha">
+                    <img src="./src/img/card-vampira.jpg" alt="Personagem Vampira">
+                </li>
+                <li class="personagens" id="wolverine" data-name="Wolverine" data-description="descrição do pqersonagem vem aqui, pois aqui eu posso falar oque eu quiser dele hahahahahaha">
+                    <img src="./src/img/card-wolverine.jpg" alt="Personagem Wolverine">
+                </li>
+                <li class="personagens" id="noturno" data-name="Noturno" data-description="descrição do pqersonagem vem aqui, pois aqui eu posso falar oque eu quiser dele hahahahahaha">
+                    <img src="./src/img/card-noturno.jpg" alt="Personagem Noturno">
+                </li>
+                <li class="personagens" id="magneto" data-name="Magneto" data-description="descrição do pqersonagem vem aqui, pois aqui eu posso falar oque eu quiser dele hahahahahaha">
+                    <img src="./src/img/card-magneto.jpg" alt="Personagem Magneto">
+                </li>
+            </ul>
+        </section>
+
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/img/card-ciclope.png" alt="">
+
+            <div class="informacoes-personagens">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ciclope é um dos mutantes mais poderosos e líderes dos X-Men, uma equipe de super-heróis que luta pela coexistência pacífica entre humanos e mutantes. Ele tem a habilidade de disparar rajadas ópticas de energia concussiva de seus olhos, que são controladas por um visor especial.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
